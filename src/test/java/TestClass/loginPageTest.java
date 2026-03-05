@@ -9,7 +9,7 @@ public class loginPageTest extends Baseclass {
 
     @Test
     public void successfulLogin() throws InterruptedException {
-        lp.register();
+        lp.login();
         Thread.sleep(3000);
 
     }

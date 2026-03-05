@@ -39,12 +39,14 @@ public class loginPage extends CommonFunctionsClass {
 
     }
 
-    public void login(){
+    public void login() throws InterruptedException {
         String username="//input[@name='username']";
         String password="//input[@name='password']";
         String login="//input[@value='Log In']";
-        cf.typeText(username,"ab");
-        cf.typeText(password,"demo");
+        cf.typeText(username,"abc123");
+        cf.typeText(password,"abc123");
+
+        Thread.sleep(10000);
         cf.click(login);
 
     }
