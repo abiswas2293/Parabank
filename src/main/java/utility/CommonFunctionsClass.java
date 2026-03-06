@@ -37,4 +37,6 @@ public class CommonFunctionsClass extends Baseclass{
         action.sendKeys(Keys.ENTER).perform();
 
     }
+
+
 }
